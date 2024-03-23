@@ -1,0 +1,7 @@
+#creation_rules:
+#  - path_regex: \.yaml$
+#    kms: 'arn:aws:kms:us-east-1:128997144437:key/686116f5-b479-471d-9848-947073395c7a'
+
+creation_rules:
+  - kms: 'arn:aws:kms:us-east-1:128997144437:key/686116f5-b479-471d-9848-947073395c7a'
+    encrypted_regex: ^(stringData)$
